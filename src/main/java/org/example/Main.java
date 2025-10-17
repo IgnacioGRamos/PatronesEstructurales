@@ -6,6 +6,11 @@ import org.example.Bridge.Alerta;
 import org.example.Bridge.Email;
 import org.example.Bridge.Recordatorio;
 import org.example.Bridge.SMS;
+import org.example.Composite.MainComposite;
+import org.example.Composite.Menu;
+import org.example.Composite.Plato;
+
+import java.awt.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -36,6 +41,14 @@ public class Main {
         System.out.println("\nFin de la prueba de Patron Bridge");
 
         System.out.println("\n// --------------------------------------------------\n");
+
+
+
+        /// Prueba Patron composite
+
+        MainComposite.main(args);
+
+
 
     }
 }
