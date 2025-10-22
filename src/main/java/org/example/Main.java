@@ -7,6 +7,7 @@ import org.example.Bridge.*;
 import org.example.Composite.MainComposite;
 import org.example.Composite.Menu;
 import org.example.Composite.Plato;
+import org.example.Decorator.MainDecorador;
 
 import java.awt.*;
 
@@ -32,7 +33,13 @@ public class Main {
 
         MainComposite.main(args);
 
+        System.out.println("\n// --------------------------------------------------\n");
 
+        /// Prueba Patron Decorator
+
+        MainDecorador.main(args);
+
+        System.out.println("\n// --------------------------------------------------\n");
 
     }
 }
