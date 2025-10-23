@@ -8,6 +8,7 @@ import org.example.Composite.MainComposite;
 import org.example.Composite.Menu;
 import org.example.Composite.Plato;
 import org.example.Decorator.MainDecorador;
+import org.example.Facade.MainFacade;
 
 import java.awt.*;
 
@@ -38,6 +39,12 @@ public class Main {
         /// Prueba Patron Decorator
 
         MainDecorador.main(args);
+
+        System.out.println("\n// --------------------------------------------------\n");
+
+        /// Prueba Patron Facade
+
+        MainFacade.main(args);
 
         System.out.println("\n// --------------------------------------------------\n");
 

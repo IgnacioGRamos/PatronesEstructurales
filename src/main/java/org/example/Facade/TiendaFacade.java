@@ -12,8 +12,8 @@ public class TiendaFacade {
     }
 
     public void Comprar() {
-        carrito.agregarProducto();
-        pago.procesarPago();
+        carrito.mostrarProductos();
+        pago.procesarPago(carrito.calcularTotal());
         envio.procesarEnvio();
     }
 }
